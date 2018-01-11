@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="java-china:war exploded">
+    <output-path>$PROJECT_DIR$/target/java-china</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="java-china" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.bladejava:blade-core:1.6.2" />
+          <element id="library" level="project" name="Maven: com.bladejava:blade-kit:1.3.0M1" />
+          <element id="library" level="project" name="Maven: com.bladejava:jmail:0.0.3" />
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.5.0-b01" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: com.qiniu:qiniu-java-sdk:7.0.8" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.3.1" />
+          <element id="library" level="project" name="Maven: com.squareup.okhttp:okhttp:2.7.1" />
+          <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.6.0" />
+          <element id="library" level="project" name="Maven: com.bladejava:blade-jdbc:0.1.0" />
+          <element id="library" level="project" name="Maven: org.sql2o:sql2o:1.5.4" />
+          <element id="library" level="project" name="Maven: com.bladejava:blade-template-jetbrick:0.0.4" />
+          <element id="library" level="project" name="Maven: com.github.subchen:jetbrick-template:2.1.2" />
+          <element id="library" level="project" name="Maven: com.github.subchen:jetbrick-commons:2.1.1" />
+          <element id="library" level="project" name="Maven: org.antlr:antlr4-runtime:4.3" />
+          <element id="library" level="project" name="Maven: org.abego.treelayout:org.abego.treelayout.core:1.0.1" />
+          <element id="library" level="project" name="Maven: org.antlr:antlr4-annotations:4.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: com.bladejava:blade-patchca:1.0.3" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.38" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.0.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/java-china/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="java-china/web/Web" />
+    </root>
+  </artifact>
+</component>
